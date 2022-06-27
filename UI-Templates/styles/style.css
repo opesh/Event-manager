@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 60vh;
+}
+.container{
+    width: 20%;
+    height: 80%;
+    margin: 10vh auto 0 auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+}
+.container_card{
+    padding: .5rem;
+}
+.card{
+    display: block;
+    padding: .5rem
+}
+label{
+    display: block;
+    padding: .2rem
+}
+#email{
+    width: 70%;
+    padding: .3rem;
+}
+#password{
+    width: 70%;
+    padding: .3rem;
+}
+h3{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:red;
+}
